@@ -1,4 +1,7 @@
-﻿double[,] CreateMatr(int n, int m)
+﻿//Задайте двумерный массив размером m×n, заполненный случайными 
+//вещественными числами.
+
+double[,] CreateMatr(int n, int m)
 {
     double[,] matrix = new double[n, m];
     for (int i = 0; i < matrix.GetLength(0); i++)

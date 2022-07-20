@@ -22,6 +22,10 @@ void PrintMatr(double[,] matrix)
         Console.WriteLine();
     }
 }
+Console.Write("Введите количество строк: ");
+int n = Convert.ToInt32(Console.ReadLine());
 
+Console.Write("Введите количество столбцов: ");
+int m = Convert.ToInt32(Console.ReadLine());
 
-PrintMatr(CreateMatr(3, 4));
+PrintMatr(CreateMatr(n, m));
